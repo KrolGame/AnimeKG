@@ -13,8 +13,7 @@ function randomQuote() {
 function randomQuoteStart() {
   let random = quotes[Math.floor(Math.random() * quotes.length)];
   quote.innerText = `${random.quote}`;
-  source.innerText = random.source;цитата
-  setTimeout(() => { document.activeElement.blur(); }, 400);
+  source.innerText = random.source;
 }
 
 const quotes = [
