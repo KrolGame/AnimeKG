@@ -1,5 +1,5 @@
 window.onload = function(){
-	randomQuoteStart()
+	randomQuote()
 }
 
 function randomQuote() {
@@ -8,12 +8,6 @@ function randomQuote() {
   source.innerText = random.source;
   document.getElementById("quotebox").focus();
   setTimeout(() => { document.activeElement.blur(); }, 300);
-}
-
-function randomQuoteStart() {
-  let random = quotes[Math.floor(Math.random() * quotes.length)];
-  quote.innerText = `${random.quote}`;
-  source.innerText = random.source;
 }
 
 const quotes = [
