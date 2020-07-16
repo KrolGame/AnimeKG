@@ -4,7 +4,8 @@
 	text-align: center;
 }
 
-#quotebox p{padding-top: 10px; font-size: 24px;}
+h1{font-size: 26px;}
+p{padding-top: 10px; font-size: 25px;}
 
 body{height: 100%; weight: 100%; background-color: #383838;}
 .button{
@@ -25,27 +26,27 @@ body{height: 100%; weight: 100%; background-color: #383838;}
 
 @media screen and (min-width: 600px) and (max-width: 991px){
 h1{font-size: 33px;}
-#quotebox p{padding-top: 10px; font-size: 23px;}
+p{padding-top: 10px; font-size: 23px;}
 }
 
 @media screen and (min-width: 480px) and (max-width: 599px){
 h1{font-size: 31px;}
-#quotebox p{padding-top: 10px; font-size: 23px;}
+p{padding-top: 10px; font-size: 23px;}
 }
 
 @media screen and (min-width: 411px) and (max-width: 479px){
 h1{font-size: 26px;}
-#quotebox p{padding-top: 10px;font-size: 22px;}
+p{padding-top: 10px;font-size: 22px;}
 }
 
 @media screen and (min-width: 360px) and (max-width: 410px){
 h1{font-size: 24px;}
-#quotebox p{padding-top: 10px;font-size: 22px;}
+p{padding-top: 10px;font-size: 22px;}
 }
 
 @media screen and (min-width: 0px) and (max-width: 359px){
 h1{font-size: 21px;}
-#quotebox p{padding-top: 5px;font-size: 20px;}
+p{padding-top: 5px;font-size: 20px;}
 }
 
 /* roboto-slab-regular - latin-ext_latin_cyrillic-ext_cyrillic */
