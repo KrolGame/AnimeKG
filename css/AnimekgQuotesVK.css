@@ -9,7 +9,6 @@ body{height: 100%; weight: 100%; background-color: #383838;}
 .button{
 	display: block;
 	margin: 0 auto;
-	margin-top: 10px;
 	cursor: pointer;
 	font: normal normal 28px 'Roboto Slab', serif;
 	color: #ff7193;
@@ -38,7 +37,7 @@ p{padding-top: 10px;font-size: 22px;}
 }
 
 @media screen and (min-width: 360px) and (max-width: 410px){
-h1{font-size: 24px;}
+h1{font-size: 23px;}
 p{padding-top: 10px;font-size: 22px;}
 }
 
