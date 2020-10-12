@@ -5,7 +5,7 @@
 }
 h1{font-size: 36px;}
 p{padding-top: 10px; font-size: 26px;}
-body{height: 100%; width: 100%; background-color: #383838;}
+body{height: 100%; width: 100%; margin: 0; background-color: #383838;}
 .button{
 	display: block;
 	margin: 0 auto;
